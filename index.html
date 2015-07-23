@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
+<script>
+	var id = parseInt(location.search.substring(1))
+	location.replace('https://github.com/YogurtShen/YogurtShen.github.io/issues' + (id ? '/' + id : '?labels=blog'))
+</script>
